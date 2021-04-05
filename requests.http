@@ -1,0 +1,33 @@
+### Get inventory request
+GET {{inventoryService}}/v1/inventory/yellow-wings
+
+### Update inventory for `yellow-wings` request
+PUT {{inventoryService}}/v1/inventory
+Content-Type: application/json
+
+{
+  "ProductId": "yellow-wings",
+  "Quantity": {{$randomInt}}
+}
+
+### Update inventory for `blue-wings` request
+PUT {{inventoryService}}/v1/inventory
+Content-Type: application/json
+
+{
+  "ProductId": "blue-wings",
+  "Quantity": {{$randomInt}}
+}
+
+### Update inventory for `white-wings` request
+PUT {{inventoryService}}/v1/inventory
+Content-Type: application/json
+
+{
+  "ProductId": "white-wings",
+  "Quantity": {{$randomInt}}
+}
+
+
+### Get catalogue request
+GET {{catalogueService}}/v1/catalogue/products
