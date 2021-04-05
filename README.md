@@ -1,6 +1,7 @@
 # Integration tests
 
-This is a demo project for Integration tests with WireMock.net.
+This is a demo project for Integration tests with WireMock.net. 
+The complete blog post you can find here: [Using WireMock for dotnet core Integration tests](https://pcholko.com/posts/2021-04-05/wiremock-integration-test/)
 
 ## Run services locally
 
